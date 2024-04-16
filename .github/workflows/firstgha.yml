@@ -1,0 +1,11 @@
+name: First workflow
+on: workflow_dispatch  #trigger
+jobs:
+  frist-job:
+    runs-on: ubuntu-latest #where to learn
+    steps:
+      - name: Print greeting
+        run: echo "hello sam"
+      - name: Print tata
+        run: echo "tata tata"
+  
