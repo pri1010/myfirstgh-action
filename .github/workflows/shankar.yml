@@ -1,0 +1,10 @@
+name: First_worflow
+on: push
+job:
+     Print:
+      runs-on: linux-latest
+      steps:
+       - name: print haldiram namkeen
+         run: echo "punkabi tadka"
+
+       
