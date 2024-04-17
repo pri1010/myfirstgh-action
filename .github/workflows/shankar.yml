@@ -1,6 +1,6 @@
 name: First_worflow
 on: push
-job:
+jobs:
      Print:
       runs-on: linux-latest
       steps:
