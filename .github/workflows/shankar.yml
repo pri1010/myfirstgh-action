@@ -2,7 +2,7 @@ name: First_worflow
 on: push
 jobs:
      Print:
-      runs-on: linux-latest
+      runs-on: ubuntu-latest
       steps:
        - name: print haldiram namkeen
          run: echo "punkabi tadka"
